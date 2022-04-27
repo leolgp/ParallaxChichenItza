@@ -1,0 +1,178 @@
+
+
+@media(max-width:770px){
+    /* menu */
+
+
+    /* container */
+.container{
+height: 100vh;
+}
+
+.container img{
+position: absolute;
+
+object-fit: cover;
+z-index: -1;      
+}
+
+.container .piramide{
+object-fit: contain;
+height: 80vh;
+width:70%;
+top: 14%;
+max-height: 85%;
+}
+
+.container .eu{
+object-fit: contain;
+bottom:-40%;
+left: -1%;
+width: 30%;
+}
+
+.main-title{
+position: absolute;
+top: 72%;
+left: 28%;
+font-size: 5rem;
+color: rgb(152, 249, 7);
+}
+    
+/* content */
+.content{
+width: 100%;
+background-color: rgb(24,24,24);
+height: 100vh;
+z-index: 2;
+position: absolute;
+}
+
+.content-images{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 1rem ;
+text-align: center;
+}
+
+.content-images img{
+width: 35vw;
+}
+
+.content-images h4, h3{
+font-size: 1rem;
+padding: .5rem;
+}
+
+.text1, .text2{
+padding: .5rem ;
+font-size:.5rem ;
+}
+
+.bottom{
+font-size:.5rem ;
+}
+
+}
+
+
+@media(max-width:450px){
+    /* menu */
+nav{
+flex-direction: column;
+align-items: flex-end;
+padding: 0;
+justify-content: flex-end;
+}
+
+.dev{
+font-size: .5rem;
+background-color:  rgb(36, 174, 212); 
+height: 0.5rem;
+padding: 1rem;
+font-weight: 600;
+width: 6rem;
+}
+
+.button{
+padding: 1rem;
+font-weight: 600;
+font-size: .5rem;
+width: 6rem;
+height: 0.5rem;
+text-align: center;
+}
+
+    /* container */
+.container{
+height: 100vh;
+}
+
+.container img{
+position: absolute;
+
+object-fit: cover;
+z-index: -1;      
+}
+
+.container .piramide{
+object-fit: contain;
+height: 80vh;
+width:70%;
+top: 16%;
+max-height: 85%;
+}
+
+.container .eu{
+object-fit: contain;
+bottom:-49%;
+left: -1%;
+width: 30%;
+}
+
+.main-title{
+position: absolute;
+top: 72%;
+left: 28%;
+font-size: 3rem;
+color: rgb(152, 249, 7);
+}
+    
+/* content */
+.content{
+width: 100%;
+background-color: rgb(24,24,24);
+height: 100vh;
+z-index: 2;
+position: absolute;
+}
+
+.content-images{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 1rem ;
+text-align: center;
+}
+
+.content-images img{
+width: 35vw;
+}
+
+.content-images h4, h3{
+font-size: 1rem;
+padding: .5rem;
+}
+
+.text1, .text2{
+padding: .5rem ;
+font-size:.5rem ;
+}
+
+.bottom{
+font-size:.5rem ;
+}
+
+}
+
